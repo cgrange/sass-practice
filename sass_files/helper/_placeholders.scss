@@ -13,13 +13,3 @@
 		color: black;
 	}
 }
-
-h1{
-	@extend %dashed-border;
-}
-
-.card{
-	width:100px;
-	height:200px;
-	@extend %solid-border;
-}
