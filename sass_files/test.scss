@@ -1,0 +1,12 @@
+%dashed-border{
+	border:
+	{
+		width: 2px;
+		style: dashed;
+		color: black;
+	}
+}
+
+h1{	
+	@extend %dashed-border;
+}
