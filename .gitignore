@@ -3,5 +3,4 @@
 *~
 *.css
 *.css.map
-.sass-cache\**
-**\.sass-cache\**
+*.scssc
