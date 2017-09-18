@@ -1,12 +1,25 @@
 %dashed-border{
-	border:
-	{
+	border:{
 		width: 2px;
 		style: dashed;
 		color: black;
 	}
 }
 
-h1{	
+%solid-border{
+	border:{
+		width: 2px;
+		style: solid;
+		color: black;
+	}
+}
+
+h1{
 	@extend %dashed-border;
+}
+
+.card{
+	width:100px;
+	height:200px;
+	@extend %solid-border;
 }
