@@ -4,3 +4,4 @@
 *.css
 *.css.map
 *.scssc
+.sass-cache/**
