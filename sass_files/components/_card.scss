@@ -1,6 +1,5 @@
-.card{
-	width:130px;
-	height:200px;
+.card-vertical{
+	@extend %card-dimensions-vertical;
 	@extend %solid-border;
   border-radius: 10px;
 }
