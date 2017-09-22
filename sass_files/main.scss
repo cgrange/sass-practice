@@ -1,7 +1,8 @@
-@import "components/card.scss";
-@import "helper/mixins.scss";
+@import "helper/variables.scss";
 @import "helper/placeholders.scss";
-@import "helper/variables";
+@import "helper/mixins.scss";
+@import "components/card.scss";
+@import "components/space.scss";
 
 .italic{
 	font-style: italic;
