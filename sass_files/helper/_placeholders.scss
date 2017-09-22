@@ -14,7 +14,12 @@
 	}
 }
 
-%card-dimensions{
-	width: 130px;
-	height: 200px;
+%card-dimensions-vertical{
+	width: $card-width;
+	height: $card-height;
+}
+
+%card-dimensions-horizontal{
+	width: $card-height;
+	height: $card-width;
 }
