@@ -1,5 +1,11 @@
 .card-vertical{
 	@extend %card-dimensions-vertical;
 	@extend %solid-border;
-  border-radius: 10px;
+  border-radius: $card-radius;
+}
+
+.card-horizontal{
+	@extend %card-dimensions-horizontal;
+	@extend %solid-border;
+	border-radius: $card-radius;
 }

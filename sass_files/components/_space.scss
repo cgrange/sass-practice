@@ -1,0 +1,5 @@
+.space{
+  width:$space-dimension;
+  height:$space-dimension;
+  @extend %solid-border;
+}
